@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>History Test</title>
+
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/libs/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<section class="test">
+    <div class="container">
+        <div class="row">
+            <h1>History Test Java</h1>
+
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <form action="index.jsp" method="POST">
+
+                    <!-- Question #1  -->
+                    <div class="question">
+                        <p>
+                            <strong>Вопрос 1.</strong> Прочтите отрывок и определите, о событиях какой войны идет речь.
+                            <br>
+                        <blockquote>
+                            «Внутри России началось сочувственное славянам движение… 12 апреля … Александр Николаевич
+                            подписал Манифест… Война была трудная. Приходилось воевать в Азии и в Европе. Одна Плевна
+                            стоила нам огромных жертв, но в конце концов она была взята. Русские войска
+                            вплотную подошли к Константинополю».
+                        </blockquote>
+                        </p>
+                        <fieldset id="question_1">
+                            <input type="radio" id="q1_1" name="q1_1" value="q1_1">
+                            <label for="q1_1">Кавказская война 1871-1864 гг.</label>
+                            <br>
+                            <input type="radio" id="q1_2" name="q1_1" value="q1_2">
+                            <label for="q1_2">Крымская война 1853-1856 гг.</label>
+                            <br>
+                            <input type="radio" id="q1_3" name="q1_1" value="q1_3">
+                            <label for="q1_3">Русско-турецкая война 1877-1878 гг. *</label>
+                            <br>
+                            <input type="radio" id="q1_4" name="q1_1" value="q1_4">
+                            <label for="q1_4">Русско-японская война 1904-1905 гг.</label>
+                        </fieldset>
+                    </div>
+
+                    <!-- Question #2  -->
+                    <div class="question">
+                        <p>
+                            <strong>Вопрос 2.</strong> В каком году произошла отмена крепостного права? 1861
+                        </p>
+                        <input type="number" class="form-control" name="q_2" placeholder="Введите год, например 1900">
+                    </div>
+
+                    <!-- Question #3  -->
+                    <div class="question">
+                        <p>
+                            <strong>Вопрос 3.</strong> К итогам индустриализации в СССР в довоенный период относится
+                        </p>
+                        <fieldset id="q3">
+                            <input type="checkbox" id="q3_1" name="q3_1" value="q3_1">
+                            <label for="q3_1">Создание комплекса предприятий тяжёлой промышленности *</label>
+                            <br>
+                            <input type="checkbox" id="q3_2" name="q3_2" value="q3_2">
+                            <label for="q3_2">Сокращение военных расходов</label>
+                            <br>
+                            <input type="checkbox" id="q3_3" name="q3_3" value="q3_3">
+                            <label for="q3_3">Интенсивное развитие лёгкой промышленности</label>
+                            <br>
+                            <input type="checkbox" id="q3_4" name="q3_4" value="q3_4">
+                            <label for="q3_4">Формирование многоукладной экономики*</label>
+                        </fieldset>
+                    </div>
+
+                    <!-- Question #4  -->
+                    <div class="question">
+                        <p>
+                            <strong>Вопрос 4.</strong> Какое сражение произошло 15 июля 1240 г. на реке Нева между
+                            новгородским войском под командованием князя Александра Ярославича и шведским войском?
+                            <br>
+                            <br>
+                            <input type="text" class="form-control" name="q_4" placeholder="Например, Невская битва">
+                        </p>
+                    </div>
+
+                    <!-- Question #5  -->
+                    <div class="question">
+                        <p>пок
+                            <strong>Вопрос 5.</strong> В период проведения новой экономической политики произошло(и)
+                        </p>
+                        <fieldset id="q5">
+                            <input type="checkbox" id="q5_1" name="q5_1" value="q5_1">
+                            <label for="q5_1">Резкое падение производительности труда</label>
+                            <br>
+                            <input type="checkbox" id="q5_2" name="q5_2" value="q5_2">
+                            <label for="q5_2">Ликвидация кулачества как класса*</label>
+                            <br>
+                            <input type="checkbox" id="q5_3" name="q5_3" value="q5_3">
+                            <label for="q5_3">Кронштадтское восстание</label>
+                            <br>
+                            <input type="checkbox" id="q5_4" name="q5_4" value="q5_4">
+                            <label for="q5_4">Введение принципов хозрасчета и самоокупаемости в промышленности*</label>
+                        </fieldset>
+                    </div>
+
+                    <!-- Question 6 -->
+                    <div class="question ">
+                        <p><strong>Вопрос 6. </strong>Постановлением Президиума ВЦИК от 1 апреля 1937 года был утверждён
+                            новый образец изображения государственного флага РСФСР, разработанный по поручению
+                            Президиума ВЦИК художником А. Н. Милькиным.
+                            <br/><br/> Выберите основной цвет флага </p>
+                        <input type="color" name="q_6"/>
+                    </div>
+
+                    <!-- Question 7 -->
+                    <div class="question">
+                        <p><strong>Вопрос 7. </strong> В каком месяце и году началась Великая Отечественная война?</p>
+                        <input type="month" name="q_7"/>
+                    </div>
+
+
+                    <!-- Submit Button -->
+                    <input class="btn btn-success" type="submit" value="Завершить тестирование"/>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
